@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Digital Business Card</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .card {
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 400px;
+      padding: 30px;
+      text-align: center;
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      object-fit: cover;
+    }
+    h1 {
+      margin: 10px 0 5px;
+      font-size: 24px;
+    }
+    h2 {
+      margin: 0 0 20px;
+      font-size: 16px;
+      color: gray;
+    }
+    .btn {
+      display: block;
+      width: 100%;
+      margin: 10px 0;
+      padding: 12px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="your-photo.jpg" alt="Your Name" class="avatar" />
+    <h1>Your Name</h1>
+    <h2>Your Job Title</h2>
+    <a href="tel:+1234567890" class="btn">Call</a>
+    <a href="mailto:you@example.com" class="btn">Email</a>
+    <a href="https://www.linkedin.com/in/yourprofile" class="btn" target="_blank">LinkedIn</a>
+    <a href="https://wa.me/1234567890" class="btn" target="_blank">WhatsApp</a>
+    <a href="your-vcard.vcf" class="btn" download>Download Contact</a>
+  </div>
+</body>
+</html>
